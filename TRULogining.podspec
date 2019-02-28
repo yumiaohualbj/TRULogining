@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TRULogining'
   s.version          = '0.3.0'
-  s.summary          = 'TRULogining'
+  s.summary          = 'TRULogining for a Demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
