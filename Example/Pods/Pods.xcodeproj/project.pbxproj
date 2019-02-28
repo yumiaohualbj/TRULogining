@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF96C3C2217C925240C0EE2A1DABD02 /* Pods-TRULogining_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C66EDF9F5D63D60B51B392530F5A6AE2 /* Pods-TRULogining_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1586196B6B900C0D1421733119B199E7 /* TRUNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79657E1BED19AAAD283900DA4AC6914D /* TRUNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E658CF2FB82009BDF4048506B74A826 /* TRUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093FF08C665FC7BF2CB9F9031610D95 /* TRUNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFDA49E4E2B1DF94748E4010C147ED8 /* Pods-TRULogining_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A70675B643508EB732A83604895F6 /* Pods-TRULogining_Example-dummy.m */; };
+		37ACDE5848320F4B7772D21DD19469BC /* TRUNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62F60C153BD9089EC019D4700B4E0E9 /* TRUNetworking.framework */; };
+		3AEC353D7E5DEDB90988530D3D4787FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD0A59201F75C6DE2146E4302E78C56 /* ReplaceMe.m */; };
+		539188BE46BA90823DA3ED2E24C29889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */; };
+		66566E4DDDA077C8A2DCA845A86B4D39 /* TRULogining-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2757899A2F7160A0FB2D4C3D3EC028BF /* TRULogining-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71EC7B1C1D07945CFF6B989F9F5F1A11 /* TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3585538D4F01E81E8E92E3AD6F8E9886 /* TRULogining-dummy.m */; };
+		77374B3B3C6C3630AB1E9EEB5BF76E00 /* TRUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FBDDFE4F51630A859C7F5D0CD3B6B /* TRUNetworking.m */; };
+		92C827248EE2E02FC66797D89A374863 /* Pods-TRULogining_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 668AAEC1625062D0CD62C2758A32130F /* Pods-TRULogining_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14CF0AAE244A7246353C2F782B7351E /* Pods-TRULogining_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F464DD126B8458EEECA24CF181E0E47B /* Pods-TRULogining_Tests-dummy.m */; };
+		A56DF5D0785127865C0D2B186C5ECECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */; };
+		BE0B184E66B311F65F97C4E78D45F90B /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EDA9B25C6BCBBC2DF371E580DC18F0 /* TRUNetworking-dummy.m */; };
+		BFC5DC7BDAFEACEABCF50684CBB70A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */; };
+		FB90EC2E59467E27AF18F44E726B31F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107A0507B96BFF46C1C459C3103405E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3062340761C9B3C3079638DAA44FD7B;
+			remoteInfo = TRUNetworking;
+		};
+		2BD6DB1BD38451DED83E7455AE4B7C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A807C54D1CEF84606A0FC3D484CA3715;
+			remoteInfo = TRULogining;
+		};
+		439F3F294894181FE3100DD939D51F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3062340761C9B3C3079638DAA44FD7B;
+			remoteInfo = TRUNetworking;
+		};
+		56DBBD3AF4E359F69DFCD26A742917EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D72127CCB065952B7463BA02E5EFEF6;
+			remoteInfo = "Pods-TRULogining_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0093FF08C665FC7BF2CB9F9031610D95 /* TRUNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUNetworking.h; path = TRUNetworking/Classes/TRUNetworking.h; sourceTree = "<group>"; };
+		0436CCE211DC4D3D7A932E47753632C6 /* Pods-TRULogining_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRULogining_Example-frameworks.sh"; sourceTree = "<group>"; };
+		060FE2B5EE2EB07F8933ACC1B7611012 /* Pods-TRULogining_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRULogining_Example.modulemap"; sourceTree = "<group>"; };
+		07973750212E15ECD5F6D49CF48EAD03 /* Pods-TRULogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0877280DBE2ACD17CFD57C873C3E363D /* TRULogining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRULogining.framework; path = TRULogining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC5517B9DFDE2431FF052A7A0EFF42D /* Pods-TRULogining_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRULogining_Tests.modulemap"; sourceTree = "<group>"; };
+		1E140FB145DAB9B762F3BE2FADBB9BBC /* Pods-TRULogining_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining_Example-Info.plist"; sourceTree = "<group>"; };
+		204CAF40656D4986BA47C9E2D1D96FB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2179B158881CC3685891329BB0974853 /* Pods-TRULogining_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2757899A2F7160A0FB2D4C3D3EC028BF /* TRULogining-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-umbrella.h"; sourceTree = "<group>"; };
+		3585538D4F01E81E8E92E3AD6F8E9886 /* TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogining-dummy.m"; sourceTree = "<group>"; };
+		3A5FEEF93C366F65574691E2427E9B0D /* TRULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRULogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EB88BACBFBC5892D9D9A6B91AB3C944 /* Pods-TRULogining_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULogining_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DB52D8C2953992C433C22866AC6D2D2 /* Pods-TRULogining_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining_Tests-Info.plist"; sourceTree = "<group>"; };
+		51FA84A71304F873A554F7B1E7B03092 /* Pods-TRULogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		568317CAFC37508D3FEB40E60DA698D0 /* TRULogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogining.xcconfig; sourceTree = "<group>"; };
+		663A70675B643508EB732A83604895F6 /* Pods-TRULogining_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULogining_Example-dummy.m"; sourceTree = "<group>"; };
+		668AAEC1625062D0CD62C2758A32130F /* Pods-TRULogining_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRULogining_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7171C11EB1C04B53BAA319DD3AE2BA5D /* TRULogining.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRULogining.modulemap; sourceTree = "<group>"; };
+		7433A949A4F12705839C0EAAEA9C5DB1 /* Pods_TRULogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRULogining_Tests.framework; path = "Pods-TRULogining_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B786D9C29C34EC315750F856F1D7CB /* Pods-TRULogining_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRULogining_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79657E1BED19AAAD283900DA4AC6914D /* TRUNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-umbrella.h"; sourceTree = "<group>"; };
+		7A0FA0A57DA4395831704931C2C28E8A /* TRUNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRUNetworking.framework; path = TRUNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C3B31713E10894DC62B4D2777109E2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		94510AE9F603D334E6903FE6E7E7E8F3 /* TRUNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TRUNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EDA9B25C6BCBBC2DF371E580DC18F0 /* TRUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetworking-dummy.m"; sourceTree = "<group>"; };
+		9A8B9C4F12F437E8F87B3A39EDA8218F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE06B276BA303DD37EC386B5CD213DEE /* Pods-TRULogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C137D0FE02981EC000EAD628EA1F6EFF /* TRUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-prefix.pch"; sourceTree = "<group>"; };
+		C23331D4C699F0840E7DC3955232B2A4 /* Pods-TRULogining_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRULogining_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2DF7EFB313E57BE8D1F9D49F449C972 /* TRULogining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRULogining-Info.plist"; sourceTree = "<group>"; };
+		C66EDF9F5D63D60B51B392530F5A6AE2 /* Pods-TRULogining_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRULogining_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC2D764AB177FD5D96BB590C133ED140 /* TRULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-prefix.pch"; sourceTree = "<group>"; };
+		CDD0A59201F75C6DE2146E4302E78C56 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TRULogining/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D699B0E1321BB97609B7A68FAD901B38 /* Pods-TRULogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRULogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E145671E14FF42FB389380A2C98149A4 /* TRUNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUNetworking.modulemap; sourceTree = "<group>"; };
+		E188DA11FD4CAD374954EF88E6A1DAC0 /* TRUNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TRUNetworking-Info.plist"; sourceTree = "<group>"; };
+		E59A1C43720765780936B9A4AD512DE0 /* TRUNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetworking.xcconfig; sourceTree = "<group>"; };
+		E62F60C153BD9089EC019D4700B4E0E9 /* TRUNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRUNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11824AF2F7EE2CC98E6240575AFA2D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F464DD126B8458EEECA24CF181E0E47B /* Pods-TRULogining_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRULogining_Tests-dummy.m"; sourceTree = "<group>"; };
+		F84FBDDFE4F51630A859C7F5D0CD3B6B /* TRUNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUNetworking.m; path = TRUNetworking/Classes/TRUNetworking.m; sourceTree = "<group>"; };
+		FC089592C0277ED0720CDB0C7A645F05 /* Pods_TRULogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRULogining_Example.framework; path = "Pods-TRULogining_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8A5792ABCCBB6008FC58C33DF32046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB90EC2E59467E27AF18F44E726B31F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA835D76CEF67A127DD9E20D4BF24CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC5DC7BDAFEACEABCF50684CBB70A79 /* Foundation.framework in Frameworks */,
+				37ACDE5848320F4B7772D21DD19469BC /* TRUNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04973159000BDD7CD8B509C0AD8D290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539188BE46BA90823DA3ED2E24C29889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C71DA94BEECAC20279DC519AFFF938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56DF5D0785127865C0D2B186C5ECECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D7E4C202253A70D4721FDC5065CAA4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C0750E6A8F8A4690294B07A256C6002 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		28320E5C83D18800C1FFD8582FC85610 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C3B31713E10894DC62B4D2777109E2B /* LICENSE */,
+				204CAF40656D4986BA47C9E2D1D96FB5 /* README.md */,
+				94510AE9F603D334E6903FE6E7E7E8F3 /* TRUNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		31C2BFF5EDCAB68B086D76B4139CBC3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62F60C153BD9089EC019D4700B4E0E9 /* TRUNetworking.framework */,
+				10D7E4C202253A70D4721FDC5065CAA4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52A4A92CFDF0D39B91C77FD316D43FF4 /* TRULogining */ = {
+			isa = PBXGroup;
+			children = (
+				CDD0A59201F75C6DE2146E4302E78C56 /* ReplaceMe.m */,
+				77EBAF34AA60B3713D247B4C443A2119 /* Pod */,
+				D3C097BEBA17A75A6B092A9BF4B8CC4B /* Support Files */,
+			);
+			name = TRULogining;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77EBAF34AA60B3713D247B4C443A2119 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A8B9C4F12F437E8F87B3A39EDA8218F /* LICENSE */,
+				F11824AF2F7EE2CC98E6240575AFA2D6 /* README.md */,
+				3A5FEEF93C366F65574691E2427E9B0D /* TRULogining.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				A5F2543AE50A1A74B8796C56C26B0932 /* Development Pods */,
+				31C2BFF5EDCAB68B086D76B4139CBC3E /* Frameworks */,
+				E733BE8FEEAB3499DF7525E63868D7D1 /* Products */,
+				C1250B44F515B14FFD941AF0CCB81060 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F2543AE50A1A74B8796C56C26B0932 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52A4A92CFDF0D39B91C77FD316D43FF4 /* TRULogining */,
+				D56169BC15AB92D6DC0995B6D80D598F /* TRUNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C1250B44F515B14FFD941AF0CCB81060 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52F3B168C5D2A2C117A2DBBA2233F02 /* Pods-TRULogining_Example */,
+				C874EBCDA3F6EC4368FEC929ACAB4176 /* Pods-TRULogining_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C874EBCDA3F6EC4368FEC929ACAB4176 /* Pods-TRULogining_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FC5517B9DFDE2431FF052A7A0EFF42D /* Pods-TRULogining_Tests.modulemap */,
+				C23331D4C699F0840E7DC3955232B2A4 /* Pods-TRULogining_Tests-acknowledgements.markdown */,
+				2179B158881CC3685891329BB0974853 /* Pods-TRULogining_Tests-acknowledgements.plist */,
+				F464DD126B8458EEECA24CF181E0E47B /* Pods-TRULogining_Tests-dummy.m */,
+				4DB52D8C2953992C433C22866AC6D2D2 /* Pods-TRULogining_Tests-Info.plist */,
+				668AAEC1625062D0CD62C2758A32130F /* Pods-TRULogining_Tests-umbrella.h */,
+				51FA84A71304F873A554F7B1E7B03092 /* Pods-TRULogining_Tests.debug.xcconfig */,
+				D699B0E1321BB97609B7A68FAD901B38 /* Pods-TRULogining_Tests.release.xcconfig */,
+			);
+			name = "Pods-TRULogining_Tests";
+			path = "Target Support Files/Pods-TRULogining_Tests";
+			sourceTree = "<group>";
+		};
+		D3C097BEBA17A75A6B092A9BF4B8CC4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7171C11EB1C04B53BAA319DD3AE2BA5D /* TRULogining.modulemap */,
+				568317CAFC37508D3FEB40E60DA698D0 /* TRULogining.xcconfig */,
+				3585538D4F01E81E8E92E3AD6F8E9886 /* TRULogining-dummy.m */,
+				C2DF7EFB313E57BE8D1F9D49F449C972 /* TRULogining-Info.plist */,
+				CC2D764AB177FD5D96BB590C133ED140 /* TRULogining-prefix.pch */,
+				2757899A2F7160A0FB2D4C3D3EC028BF /* TRULogining-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TRULogining";
+			sourceTree = "<group>";
+		};
+		D56169BC15AB92D6DC0995B6D80D598F /* TRUNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0093FF08C665FC7BF2CB9F9031610D95 /* TRUNetworking.h */,
+				F84FBDDFE4F51630A859C7F5D0CD3B6B /* TRUNetworking.m */,
+				28320E5C83D18800C1FFD8582FC85610 /* Pod */,
+				D62401C76EB59ACBE860A7BED8E70B1E /* Support Files */,
+			);
+			name = TRUNetworking;
+			path = ../../../TRUNetworking;
+			sourceTree = "<group>";
+		};
+		D62401C76EB59ACBE860A7BED8E70B1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E145671E14FF42FB389380A2C98149A4 /* TRUNetworking.modulemap */,
+				E59A1C43720765780936B9A4AD512DE0 /* TRUNetworking.xcconfig */,
+				96EDA9B25C6BCBBC2DF371E580DC18F0 /* TRUNetworking-dummy.m */,
+				E188DA11FD4CAD374954EF88E6A1DAC0 /* TRUNetworking-Info.plist */,
+				C137D0FE02981EC000EAD628EA1F6EFF /* TRUNetworking-prefix.pch */,
+				79657E1BED19AAAD283900DA4AC6914D /* TRUNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../TRULogining/Example/Pods/Target Support Files/TRUNetworking";
+			sourceTree = "<group>";
+		};
+		E733BE8FEEAB3499DF7525E63868D7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC089592C0277ED0720CDB0C7A645F05 /* Pods_TRULogining_Example.framework */,
+				7433A949A4F12705839C0EAAEA9C5DB1 /* Pods_TRULogining_Tests.framework */,
+				0877280DBE2ACD17CFD57C873C3E363D /* TRULogining.framework */,
+				7A0FA0A57DA4395831704931C2C28E8A /* TRUNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52F3B168C5D2A2C117A2DBBA2233F02 /* Pods-TRULogining_Example */ = {
+			isa = PBXGroup;
+			children = (
+				060FE2B5EE2EB07F8933ACC1B7611012 /* Pods-TRULogining_Example.modulemap */,
+				3EB88BACBFBC5892D9D9A6B91AB3C944 /* Pods-TRULogining_Example-acknowledgements.markdown */,
+				74B786D9C29C34EC315750F856F1D7CB /* Pods-TRULogining_Example-acknowledgements.plist */,
+				663A70675B643508EB732A83604895F6 /* Pods-TRULogining_Example-dummy.m */,
+				0436CCE211DC4D3D7A932E47753632C6 /* Pods-TRULogining_Example-frameworks.sh */,
+				1E140FB145DAB9B762F3BE2FADBB9BBC /* Pods-TRULogining_Example-Info.plist */,
+				C66EDF9F5D63D60B51B392530F5A6AE2 /* Pods-TRULogining_Example-umbrella.h */,
+				BE06B276BA303DD37EC386B5CD213DEE /* Pods-TRULogining_Example.debug.xcconfig */,
+				07973750212E15ECD5F6D49CF48EAD03 /* Pods-TRULogining_Example.release.xcconfig */,
+			);
+			name = "Pods-TRULogining_Example";
+			path = "Target Support Files/Pods-TRULogining_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E99102287251776FCC82E42EA226959 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66566E4DDDA077C8A2DCA845A86B4D39 /* TRULogining-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7496F46CA155336DA821CFFE7947A28B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C827248EE2E02FC66797D89A374863 /* Pods-TRULogining_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8008FBA365EA4D6F339FBFECEC27B081 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF96C3C2217C925240C0EE2A1DABD02 /* Pods-TRULogining_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0BCA5E112841F75499340B02CE0042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1586196B6B900C0D1421733119B199E7 /* TRUNetworking-umbrella.h in Headers */,
+				1E658CF2FB82009BDF4048506B74A826 /* TRUNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D72127CCB065952B7463BA02E5EFEF6 /* Pods-TRULogining_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C431B22F9D8A7782047EF7B6E27686 /* Build configuration list for PBXNativeTarget "Pods-TRULogining_Example" */;
+			buildPhases = (
+				8008FBA365EA4D6F339FBFECEC27B081 /* Headers */,
+				73F9B0C54AA8E13CA5950A5A544BB28B /* Sources */,
+				E9C71DA94BEECAC20279DC519AFFF938 /* Frameworks */,
+				24E3E1B1C53A332B1CAF6B0EBDDF0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7057EAC4E7BBBDEE57141B2F7B28D8 /* PBXTargetDependency */,
+				31EC5D893517E563788FC98D0520755C /* PBXTargetDependency */,
+			);
+			name = "Pods-TRULogining_Example";
+			productName = "Pods-TRULogining_Example";
+			productReference = FC089592C0277ED0720CDB0C7A645F05 /* Pods_TRULogining_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F68042842AC486835BEE4CA75C32714 /* Pods-TRULogining_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542016B30952443568F5EB09F7A1F4CB /* Build configuration list for PBXNativeTarget "Pods-TRULogining_Tests" */;
+			buildPhases = (
+				7496F46CA155336DA821CFFE7947A28B /* Headers */,
+				D04AF07C1A5714B264DF5673FCF96CEA /* Sources */,
+				C04973159000BDD7CD8B509C0AD8D290 /* Frameworks */,
+				EECDC50201772778CCD22ED57050208D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FFDFBA023059C29B735F8B251C47F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TRULogining_Tests";
+			productName = "Pods-TRULogining_Tests";
+			productReference = 7433A949A4F12705839C0EAAEA9C5DB1 /* Pods_TRULogining_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A807C54D1CEF84606A0FC3D484CA3715 /* TRULogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93255FF9F85F7CB67228C1FAFDE30653 /* Build configuration list for PBXNativeTarget "TRULogining" */;
+			buildPhases = (
+				3E99102287251776FCC82E42EA226959 /* Headers */,
+				8F9B381CBA95CCA06C13C9ABF37F30F3 /* Sources */,
+				BA835D76CEF67A127DD9E20D4BF24CDA /* Frameworks */,
+				48DD20BD93F3190B47298A2CF697D628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5870970D8DE1EB7A27EFA9D8847FD28C /* PBXTargetDependency */,
+			);
+			name = TRULogining;
+			productName = TRULogining;
+			productReference = 0877280DBE2ACD17CFD57C873C3E363D /* TRULogining.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3062340761C9B3C3079638DAA44FD7B /* TRUNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5DB99B0020C6E428C7271E93486C3B /* Build configuration list for PBXNativeTarget "TRUNetworking" */;
+			buildPhases = (
+				DA0BCA5E112841F75499340B02CE0042 /* Headers */,
+				EC77D09ADC7EDFEB9386D12024A427B4 /* Sources */,
+				2E8A5792ABCCBB6008FC58C33DF32046 /* Frameworks */,
+				979B3D6310067D52039FD15638C23D90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRUNetworking;
+			productName = TRUNetworking;
+			productReference = 7A0FA0A57DA4395831704931C2C28E8A /* TRUNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E733BE8FEEAB3499DF7525E63868D7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D72127CCB065952B7463BA02E5EFEF6 /* Pods-TRULogining_Example */,
+				1F68042842AC486835BEE4CA75C32714 /* Pods-TRULogining_Tests */,
+				A807C54D1CEF84606A0FC3D484CA3715 /* TRULogining */,
+				F3062340761C9B3C3079638DAA44FD7B /* TRUNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E3E1B1C53A332B1CAF6B0EBDDF0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DD20BD93F3190B47298A2CF697D628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979B3D6310067D52039FD15638C23D90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECDC50201772778CCD22ED57050208D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F9B0C54AA8E13CA5950A5A544BB28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFDA49E4E2B1DF94748E4010C147ED8 /* Pods-TRULogining_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9B381CBA95CCA06C13C9ABF37F30F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEC353D7E5DEDB90988530D3D4787FF /* ReplaceMe.m in Sources */,
+				71EC7B1C1D07945CFF6B989F9F5F1A11 /* TRULogining-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04AF07C1A5714B264DF5673FCF96CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14CF0AAE244A7246353C2F782B7351E /* Pods-TRULogining_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC77D09ADC7EDFEB9386D12024A427B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0B184E66B311F65F97C4E78D45F90B /* TRUNetworking-dummy.m in Sources */,
+				77374B3B3C6C3630AB1E9EEB5BF76E00 /* TRUNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FFDFBA023059C29B735F8B251C47F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TRULogining_Example";
+			target = 1D72127CCB065952B7463BA02E5EFEF6 /* Pods-TRULogining_Example */;
+			targetProxy = 56DBBD3AF4E359F69DFCD26A742917EA /* PBXContainerItemProxy */;
+		};
+		31EC5D893517E563788FC98D0520755C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNetworking;
+			target = F3062340761C9B3C3079638DAA44FD7B /* TRUNetworking */;
+			targetProxy = 439F3F294894181FE3100DD939D51F8B /* PBXContainerItemProxy */;
+		};
+		3E7057EAC4E7BBBDEE57141B2F7B28D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRULogining;
+			target = A807C54D1CEF84606A0FC3D484CA3715 /* TRULogining */;
+			targetProxy = 2BD6DB1BD38451DED83E7455AE4B7C1E /* PBXContainerItemProxy */;
+		};
+		5870970D8DE1EB7A27EFA9D8847FD28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUNetworking;
+			target = F3062340761C9B3C3079638DAA44FD7B /* TRUNetworking */;
+			targetProxy = 107A0507B96BFF46C1C459C3103405E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FFC5D53B0C0DA3DBA859CBE2FDFE400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568317CAFC37508D3FEB40E60DA698D0 /* TRULogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULogining/TRULogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRULogining/TRULogining.modulemap";
+				PRODUCT_MODULE_NAME = TRULogining;
+				PRODUCT_NAME = TRULogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D7C223417575DF2D5A2F7C7DEA2EDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D699B0E1321BB97609B7A68FAD901B38 /* Pods-TRULogining_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRULogining_Tests/Pods-TRULogining_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRULogining_Tests/Pods-TRULogining_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75164A826D3FE1C04F3F459E7697057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568317CAFC37508D3FEB40E60DA698D0 /* TRULogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRULogining/TRULogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRULogining/TRULogining.modulemap";
+				PRODUCT_MODULE_NAME = TRULogining;
+				PRODUCT_NAME = TRULogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A852BE0819AAB8827928AA91B93677B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59A1C43720765780936B9A4AD512DE0 /* TRUNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNetworking/TRUNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRUNetworking/TRUNetworking.modulemap";
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6FCCEB9A76DD520BE253A18EDE19E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51FA84A71304F873A554F7B1E7B03092 /* Pods-TRULogining_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRULogining_Tests/Pods-TRULogining_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRULogining_Tests/Pods-TRULogining_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E17DE4A04FB4D3AFABA541ABC773EC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07973750212E15ECD5F6D49CF48EAD03 /* Pods-TRULogining_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRULogining_Example/Pods-TRULogining_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRULogining_Example/Pods-TRULogining_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3A0C99AF5F7C6DBC9628A00453F0461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE06B276BA303DD37EC386B5CD213DEE /* Pods-TRULogining_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRULogining_Example/Pods-TRULogining_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRULogining_Example/Pods-TRULogining_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC922716C3747B8264BB677E7C442C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59A1C43720765780936B9A4AD512DE0 /* TRUNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUNetworking/TRUNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRUNetworking/TRUNetworking.modulemap";
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C431B22F9D8A7782047EF7B6E27686 /* Build configuration list for PBXNativeTarget "Pods-TRULogining_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A0C99AF5F7C6DBC9628A00453F0461 /* Debug */,
+				E17DE4A04FB4D3AFABA541ABC773EC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542016B30952443568F5EB09F7A1F4CB /* Build configuration list for PBXNativeTarget "Pods-TRULogining_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6FCCEB9A76DD520BE253A18EDE19E81 /* Debug */,
+				5D7C223417575DF2D5A2F7C7DEA2EDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93255FF9F85F7CB67228C1FAFDE30653 /* Build configuration list for PBXNativeTarget "TRULogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC5D53B0C0DA3DBA859CBE2FDFE400 /* Debug */,
+				75164A826D3FE1C04F3F459E7697057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5DB99B0020C6E428C7271E93486C3B /* Build configuration list for PBXNativeTarget "TRUNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC922716C3747B8264BB677E7C442C72 /* Debug */,
+				A852BE0819AAB8827928AA91B93677B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
